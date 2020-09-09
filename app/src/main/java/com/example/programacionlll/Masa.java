@@ -14,7 +14,9 @@ public class Masa extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_masa);
-    }   Button button =(Button)findViewById(R.id.idconvertir);
+
+        Button button =(Button)findViewById(R.id.idconvertir);
+    }
 
     public void masa(View v){
         try{
