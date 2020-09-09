@@ -14,7 +14,9 @@ public class Longitud extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_longitud);
-    }   Button button = (Button)findViewById(R.id.idconvertir);
+
+        Button button = (Button)findViewById(R.id.idconvertir);
+    }
 
     public void longitud(View v){
         try{

@@ -14,7 +14,9 @@ public class Transdatos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transdatos);
-    }   Button button = (Button)findViewById(R.id.idconvertir);
+
+        Button button = (Button)findViewById(R.id.idconvertir);
+    }
 
     public void transferencia(View v){
         try{
